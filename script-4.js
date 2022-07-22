@@ -10,10 +10,6 @@ multByFactor(5) //5 BECAUSE WE SET DEFAULT VALUE
 
 const multByFactor2 = (value, multiplier = 1) => value * multiplier; //ANOTHER SYNTAX
 
-console.log(multByFactor2(6)) //priints 6
-console.log(multByFactor2(6,5)) //priints 30
-
-//ANOTHER MORE COMPLEX EXAMPLE
 
 const newPost = (post, addedAt = Date()) => ({ //USES ({..}) (неявный возврат - RETURNS OBJECT) AS FUNCTION CREATES NEW OBJECT
     ...post,
